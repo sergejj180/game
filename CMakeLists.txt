@@ -10,4 +10,6 @@ add_executable(${PROJECT_NAME}
 	"Player.cpp" "Player.h"
 	"Warrior.cpp" "Warrior.h"
 	"Archer.cpp" "Archer.h" 
-	"Mage.cpp" "Mage.h")
+	"Mage.cpp" "Mage.h"
+	
+	"MonsterWarrior.cpp" "MonsterWarrior.h" )
