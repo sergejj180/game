@@ -5,10 +5,14 @@
  *      Author: sergejj180
  */
 
+#include <iostream>
+
 #include "MonsterMage.h"
 
 MonsterMage::MonsterMage() {
 	// TODO Auto-generated constructor stub
+
+	std::cout << "Create new Monster Monster Mage ! ! !" << std::endl;
 
 }
 
