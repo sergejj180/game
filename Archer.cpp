@@ -5,10 +5,15 @@
  *      Author: sergejj180
  */
 
+#include <iostream>
+
 #include "Archer.h"
 
 Archer::Archer() {
 	// TODO Auto-generated constructor stub
+
+	std::cout << "Create new Archer ! ! !" << std::endl;
+
 
 }
 
