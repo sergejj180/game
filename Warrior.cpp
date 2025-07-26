@@ -5,10 +5,14 @@
  *      Author: sergejj180
  */
 
+#include <iostream>
+
 #include "Warrior.h"
 
 Warrior::Warrior() {
 	// TODO Auto-generated constructor stub
+
+	std::cout << "Create new Warrior ! ! !" << std::endl;
 
 }
 
