@@ -8,4 +8,5 @@ add_executable(${PROJECT_NAME}
 
 	"main.cpp"
 	"Player.cpp" "Player.h"
-	"Warrior.cpp" "Warrior.h")
+	"Warrior.cpp" "Warrior.h"
+	"Archer.cpp" "Archer.h" )
