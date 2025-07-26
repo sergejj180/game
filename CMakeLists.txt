@@ -13,4 +13,5 @@ add_executable(${PROJECT_NAME}
 	"Mage.cpp" "Mage.h"
 	
 	"MonsterWarrior.cpp" "MonsterWarrior.h" 
-	"MonsterArcher.cpp" "MonsterArcher.h")
+	"MonsterArcher.cpp" "MonsterArcher.h"
+	"MonsterMage.cpp" "MonsterMage.cpp")
