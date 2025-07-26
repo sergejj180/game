@@ -9,8 +9,11 @@
 #define MONSTER_H_
 
 class Monster {
+private:
+	int id;
 public:
 	Monster();
+	Monster(int id);
 	virtual ~Monster();
 };
 
