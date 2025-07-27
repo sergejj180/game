@@ -5,6 +5,8 @@
  *      Author: sergejj180
  */
 
+#include <iostream>
+
 #include "Monster.h"
 #include "MonsterWarrior.h"
 #include "MonsterArcher.h"
@@ -12,6 +14,7 @@
 
 Monster::Monster() {
 	// TODO Auto-generated constructor stub
+	std::cout << "Create new Monster ! ! !" << std::endl;
 }
 
 Monster::Monster(int id){
