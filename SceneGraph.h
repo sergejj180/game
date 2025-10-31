@@ -9,6 +9,9 @@
 #define SCENEGRAPH_H_
 
 class SceneGraph {
+
+	void setup();
+
 };
 
 #endif /* SCENEGRAPH_H_ */
