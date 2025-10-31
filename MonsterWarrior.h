@@ -9,8 +9,9 @@
 #define MONSTERWARRIOR_H_
 
 #include "Warrior.h"
+#include "Monster.h"
 
-class MonsterWarrior: public Warrior {
+class MonsterWarrior: public Warrior , public Monster {
 public:
 	MonsterWarrior();
 	virtual ~MonsterWarrior();

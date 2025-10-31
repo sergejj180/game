@@ -9,8 +9,9 @@
 #define MONSTERMAGE_H_
 
 #include "Mage.h"
+#include "Monster.h"
 
-class MonsterMage: public Mage {
+class MonsterMage: public Mage , public Monster {
 public:
 	MonsterMage();
 	virtual ~MonsterMage();

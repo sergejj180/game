@@ -9,8 +9,9 @@
 #define MONSTERARCHER_H_
 
 #include "Archer.h"
+#include "Monster.h"
 
-class MonsterArcher: public Archer {
+class MonsterArcher: public Archer ,public Monster {
 public:
 	MonsterArcher();
 	virtual ~MonsterArcher();
