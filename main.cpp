@@ -14,11 +14,11 @@ int main(int argc, char **argv) {
 
 /*	int *array = new int[length];*/
 
-	objectMonster[0] = new Monster(1);
-	objectMonster[1] = new Monster(2);
-	objectMonster[2] = new Monster(3);
-	objectMonster[3] = new Monster(1);
-	objectMonster[4] = new Monster(2);
+	objectMonster[0] = new MonsterWarrior();
+	objectMonster[1] = new MonsterMage();
+	objectMonster[2] = new MonsterArcher();
+	objectMonster[3] = new MonsterMage();
+	objectMonster[4] = new MonsterWarrior();
 
 
 /*	objectMonster = new Monster(1);
