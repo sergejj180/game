@@ -1,6 +1,9 @@
 #include <iostream>
 
 #include "Monster.h"
+#include "MonsterWarrior.h"
+#include "MonsterArcher.h"
+#include "MonsterMage.h"
 
 int main(int argc, char **argv) {
 	std::cout << "Hello World" << std::endl;
