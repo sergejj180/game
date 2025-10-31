@@ -12,6 +12,7 @@ class SceneGraph {
 
 	void setup();
 	void update();
+	void render();
 
 };
 
